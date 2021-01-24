@@ -1,0 +1,20 @@
+server :
+  port : 9191
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+info:
+  application:
+    name : springboot-actuator
+    Description : Spring Boot Actuator 2.x Enhancement
+    artifact : springboot-actuator
+    version : 0.0.1-SNAPSHOT
+  techstack:
+    java : open jdk 8
+    spring boot : 2.4.2
+    angular : 8
+    database : MySQL
